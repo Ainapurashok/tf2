@@ -20,4 +20,4 @@ resource "aws_instance" "webserver" {
 
   tags = {
     Name = "webserver_git"
-  }
+  }}
