@@ -7,9 +7,9 @@ terraform {
   }
 }
 provider "aws" {
-  region     = "ap-south-1"
-  access_key = "AKIA2CLAYI6FNPMCYGYF"
-  secret_key = "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"
+    region     = "ap-southeast-2"
+  access_key = "AKIA3FEXSVUGAMECKLNS"
+  secret_key = "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"
 }
 
 # Setup webserver ec2 instance
