@@ -15,10 +15,10 @@ provider "aws" {
 # Setup webserver ec2 instance
 
 resource "aws_instance" "webserver" {
-  ami           = "ami-0d13e3e640877b0b9"
+  ami           = "ami-0ed828ae690ef8b35"
   instance_type = "t2.micro"
 
   tags = {
-    Name = "webserver_git"
+    Name = "webserver_git1"
   }
 }
